@@ -145,7 +145,23 @@ img{
     background-color: var(--third-color);
     transition: .5s;
   }
+   .home__data{
+    text-align: center;
+
+  }
+  .home__social{
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+    margin: auto;
+  }
+
+  .home__img{
+     display: none;
+  }
 }
+
 .nav__item{
   margin-bottom: var(--mb-4);
 }
